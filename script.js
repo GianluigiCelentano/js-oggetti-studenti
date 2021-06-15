@@ -35,4 +35,10 @@ while (utentStudent.utentStudentDescription.length < 1) {
         surname:askSurname,
         age:askAge
     })
-} document.getElementById("utentstudent").innerHTML = utentStudent.utentStudentDescription
+} 
+
+for(var ugr = 0; ugr < utentStudent.utentStudentDescription.length; ugr++) {
+    for(var n in utentStudent.utentStudentDescription.length[ugr]) {
+        document.getElementById("utentstudent").innerHTML = utentStudent.utentStudentDescription[ugr][n]
+    }
+}
