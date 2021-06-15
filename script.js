@@ -1,5 +1,5 @@
 var student = {
-    description : [
+    description: [
     name = "Gianluigi",
     surname = "Celentano",
     age = "25"
@@ -11,7 +11,7 @@ for(var gr = 0; gr < student.description.length; gr++) {
 
 
 var students = {
-    descriptions : [
+    descriptions: [
         names = "Ottavio","Alfredo","Davide",
         surnames = "Fogliata", "Guida", "Voza"
     ]
@@ -24,9 +24,8 @@ for(var grs = 0; grs < students.descriptions.length; grs++) {
 
 
 var utentStudent = {
-    utentStudentDescription : []
+    utentStudentDescription: []
 }
-
 while (utentStudent.utentStudentDescription.length < 1) {
     var askName = prompt("INSERISCI UN NOME")
     var askSurname = prompt("INSERISCI UN COGNOME")
