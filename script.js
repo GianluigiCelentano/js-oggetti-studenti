@@ -39,6 +39,6 @@ while (utentStudent.utentStudentDescription.length < 1) {
 
 for(var ugr = 0; ugr < utentStudent.utentStudentDescription.length; ugr++) {
     for(var n in utentStudent.utentStudentDescription[ugr]) {
-        document.getElementById("utentstudent").innerHTML += " " + utentStudent.utentStudentDescription[ugr][n]
+        document.getElementById("utentstudent").innerHTML += " " + [n] + " " + utentStudent.utentStudentDescription[ugr][n]
     }
 }
